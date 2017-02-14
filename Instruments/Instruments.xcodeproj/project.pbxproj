@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC17D4B61E514C6100EF34C6 /* K2AllocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D4B51E514C6100EF34C6 /* K2AllocationsViewController.m */; };
+		CC17D5261E51592800EF34C6 /* PINCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D4FC1E51592800EF34C6 /* PINCache.m */; };
+		CC17D5271E51592800EF34C6 /* PINDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D4FE1E51592800EF34C6 /* PINDiskCache.m */; };
+		CC17D5281E51592800EF34C6 /* PINMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D5001E51592800EF34C6 /* PINMemoryCache.m */; };
+		CC17D5291E51592800EF34C6 /* NSData+ImageDetectors.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D5041E51592800EF34C6 /* NSData+ImageDetectors.m */; };
+		CC17D52A1E51592800EF34C6 /* UIImage+DecodedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D5061E51592800EF34C6 /* UIImage+DecodedImage.m */; };
+		CC17D52B1E51592800EF34C6 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D5081E51592800EF34C6 /* UIImage+WebP.m */; };
+		CC17D52C1E51592800EF34C6 /* FLAnimatedImageView+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D50B1E51592800EF34C6 /* FLAnimatedImageView+PINRemoteImage.m */; };
+		CC17D52D1E51592800EF34C6 /* UIButton+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D50D1E51592800EF34C6 /* UIButton+PINRemoteImage.m */; };
+		CC17D52E1E51592800EF34C6 /* UIImageView+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D50F1E51592800EF34C6 /* UIImageView+PINRemoteImage.m */; };
+		CC17D52F1E51592800EF34C6 /* PINDataTaskOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D5111E51592800EF34C6 /* PINDataTaskOperation.m */; };
+		CC17D5301E51592800EF34C6 /* PINProgressiveImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D5131E51592800EF34C6 /* PINProgressiveImage.m */; };
+		CC17D5311E51592800EF34C6 /* PINRemoteImageCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D5161E51592800EF34C6 /* PINRemoteImageCallbacks.m */; };
+		CC17D5321E51592800EF34C6 /* PINRemoteImageCategoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D5181E51592800EF34C6 /* PINRemoteImageCategoryManager.m */; };
+		CC17D5331E51592800EF34C6 /* PINRemoteImageDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D51A1E51592800EF34C6 /* PINRemoteImageDownloadTask.m */; };
+		CC17D5341E51592800EF34C6 /* PINRemoteImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D51D1E51592800EF34C6 /* PINRemoteImageManager.m */; };
+		CC17D5351E51592800EF34C6 /* PINRemoteImageManagerResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D51F1E51592800EF34C6 /* PINRemoteImageManagerResult.m */; };
+		CC17D5361E51592800EF34C6 /* PINRemoteImageProcessorTask.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D5211E51592800EF34C6 /* PINRemoteImageProcessorTask.m */; };
+		CC17D5371E51592800EF34C6 /* PINRemoteImageTask.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D5231E51592800EF34C6 /* PINRemoteImageTask.m */; };
+		CC17D5381E51592800EF34C6 /* PINURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D5251E51592800EF34C6 /* PINURLSessionManager.m */; };
+		CC17D53B1E52D15200EF34C6 /* K2LeaksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17D53A1E52D15200EF34C6 /* K2LeaksViewController.m */; };
 		CC9643C41E4D5F5D00D05270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9643C31E4D5F5D00D05270 /* main.m */; };
 		CC9643C71E4D5F5D00D05270 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9643C61E4D5F5D00D05270 /* AppDelegate.m */; };
 		CC9643CA1E4D5F5D00D05270 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9643C91E4D5F5D00D05270 /* ViewController.m */; };
@@ -38,6 +59,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC17D4B41E514C6100EF34C6 /* K2AllocationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = K2AllocationsViewController.h; sourceTree = "<group>"; };
+		CC17D4B51E514C6100EF34C6 /* K2AllocationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = K2AllocationsViewController.m; sourceTree = "<group>"; };
+		CC17D4FA1E51592800EF34C6 /* Nullability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nullability.h; sourceTree = "<group>"; };
+		CC17D4FB1E51592800EF34C6 /* PINCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINCache.h; sourceTree = "<group>"; };
+		CC17D4FC1E51592800EF34C6 /* PINCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINCache.m; sourceTree = "<group>"; };
+		CC17D4FD1E51592800EF34C6 /* PINDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINDiskCache.h; sourceTree = "<group>"; };
+		CC17D4FE1E51592800EF34C6 /* PINDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINDiskCache.m; sourceTree = "<group>"; };
+		CC17D4FF1E51592800EF34C6 /* PINMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINMemoryCache.h; sourceTree = "<group>"; };
+		CC17D5001E51592800EF34C6 /* PINMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINMemoryCache.m; sourceTree = "<group>"; };
+		CC17D5031E51592800EF34C6 /* NSData+ImageDetectors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageDetectors.h"; sourceTree = "<group>"; };
+		CC17D5041E51592800EF34C6 /* NSData+ImageDetectors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageDetectors.m"; sourceTree = "<group>"; };
+		CC17D5051E51592800EF34C6 /* UIImage+DecodedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DecodedImage.h"; sourceTree = "<group>"; };
+		CC17D5061E51592800EF34C6 /* UIImage+DecodedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DecodedImage.m"; sourceTree = "<group>"; };
+		CC17D5071E51592800EF34C6 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		CC17D5081E51592800EF34C6 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		CC17D50A1E51592800EF34C6 /* FLAnimatedImageView+PINRemoteImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImageView+PINRemoteImage.h"; sourceTree = "<group>"; };
+		CC17D50B1E51592800EF34C6 /* FLAnimatedImageView+PINRemoteImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImageView+PINRemoteImage.m"; sourceTree = "<group>"; };
+		CC17D50C1E51592800EF34C6 /* UIButton+PINRemoteImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PINRemoteImage.h"; sourceTree = "<group>"; };
+		CC17D50D1E51592800EF34C6 /* UIButton+PINRemoteImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PINRemoteImage.m"; sourceTree = "<group>"; };
+		CC17D50E1E51592800EF34C6 /* UIImageView+PINRemoteImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+PINRemoteImage.h"; sourceTree = "<group>"; };
+		CC17D50F1E51592800EF34C6 /* UIImageView+PINRemoteImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+PINRemoteImage.m"; sourceTree = "<group>"; };
+		CC17D5101E51592800EF34C6 /* PINDataTaskOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINDataTaskOperation.h; sourceTree = "<group>"; };
+		CC17D5111E51592800EF34C6 /* PINDataTaskOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINDataTaskOperation.m; sourceTree = "<group>"; };
+		CC17D5121E51592800EF34C6 /* PINProgressiveImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINProgressiveImage.h; sourceTree = "<group>"; };
+		CC17D5131E51592800EF34C6 /* PINProgressiveImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINProgressiveImage.m; sourceTree = "<group>"; };
+		CC17D5141E51592800EF34C6 /* PINRemoteImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImage.h; sourceTree = "<group>"; };
+		CC17D5151E51592800EF34C6 /* PINRemoteImageCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageCallbacks.h; sourceTree = "<group>"; };
+		CC17D5161E51592800EF34C6 /* PINRemoteImageCallbacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageCallbacks.m; sourceTree = "<group>"; };
+		CC17D5171E51592800EF34C6 /* PINRemoteImageCategoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageCategoryManager.h; sourceTree = "<group>"; };
+		CC17D5181E51592800EF34C6 /* PINRemoteImageCategoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageCategoryManager.m; sourceTree = "<group>"; };
+		CC17D5191E51592800EF34C6 /* PINRemoteImageDownloadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageDownloadTask.h; sourceTree = "<group>"; };
+		CC17D51A1E51592800EF34C6 /* PINRemoteImageDownloadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageDownloadTask.m; sourceTree = "<group>"; };
+		CC17D51B1E51592800EF34C6 /* PINRemoteImageMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageMacros.h; sourceTree = "<group>"; };
+		CC17D51C1E51592800EF34C6 /* PINRemoteImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageManager.h; sourceTree = "<group>"; };
+		CC17D51D1E51592800EF34C6 /* PINRemoteImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageManager.m; sourceTree = "<group>"; };
+		CC17D51E1E51592800EF34C6 /* PINRemoteImageManagerResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageManagerResult.h; sourceTree = "<group>"; };
+		CC17D51F1E51592800EF34C6 /* PINRemoteImageManagerResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageManagerResult.m; sourceTree = "<group>"; };
+		CC17D5201E51592800EF34C6 /* PINRemoteImageProcessorTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageProcessorTask.h; sourceTree = "<group>"; };
+		CC17D5211E51592800EF34C6 /* PINRemoteImageProcessorTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageProcessorTask.m; sourceTree = "<group>"; };
+		CC17D5221E51592800EF34C6 /* PINRemoteImageTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageTask.h; sourceTree = "<group>"; };
+		CC17D5231E51592800EF34C6 /* PINRemoteImageTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageTask.m; sourceTree = "<group>"; };
+		CC17D5241E51592800EF34C6 /* PINURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINURLSessionManager.h; sourceTree = "<group>"; };
+		CC17D5251E51592800EF34C6 /* PINURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINURLSessionManager.m; sourceTree = "<group>"; };
+		CC17D5391E52D15200EF34C6 /* K2LeaksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = K2LeaksViewController.h; sourceTree = "<group>"; };
+		CC17D53A1E52D15200EF34C6 /* K2LeaksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = K2LeaksViewController.m; sourceTree = "<group>"; };
 		CC9643BF1E4D5F5D00D05270 /* Instruments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instruments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9643C31E4D5F5D00D05270 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC9643C51E4D5F5D00D05270 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +152,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC17D4B71E5157E000EF34C6 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				CC17D4F91E51592800EF34C6 /* PINCache */,
+				CC17D5011E51592800EF34C6 /* PINRemoteImage */,
+			);
+			name = Vender;
+			sourceTree = "<group>";
+		};
+		CC17D4F91E51592800EF34C6 /* PINCache */ = {
+			isa = PBXGroup;
+			children = (
+				CC17D4FA1E51592800EF34C6 /* Nullability.h */,
+				CC17D4FB1E51592800EF34C6 /* PINCache.h */,
+				CC17D4FC1E51592800EF34C6 /* PINCache.m */,
+				CC17D4FD1E51592800EF34C6 /* PINDiskCache.h */,
+				CC17D4FE1E51592800EF34C6 /* PINDiskCache.m */,
+				CC17D4FF1E51592800EF34C6 /* PINMemoryCache.h */,
+				CC17D5001E51592800EF34C6 /* PINMemoryCache.m */,
+			);
+			name = PINCache;
+			path = Vender/PINCache;
+			sourceTree = "<group>";
+		};
+		CC17D5011E51592800EF34C6 /* PINRemoteImage */ = {
+			isa = PBXGroup;
+			children = (
+				CC17D5021E51592800EF34C6 /* Categories */,
+				CC17D5091E51592800EF34C6 /* Image Categories */,
+				CC17D5101E51592800EF34C6 /* PINDataTaskOperation.h */,
+				CC17D5111E51592800EF34C6 /* PINDataTaskOperation.m */,
+				CC17D5121E51592800EF34C6 /* PINProgressiveImage.h */,
+				CC17D5131E51592800EF34C6 /* PINProgressiveImage.m */,
+				CC17D5141E51592800EF34C6 /* PINRemoteImage.h */,
+				CC17D5151E51592800EF34C6 /* PINRemoteImageCallbacks.h */,
+				CC17D5161E51592800EF34C6 /* PINRemoteImageCallbacks.m */,
+				CC17D5171E51592800EF34C6 /* PINRemoteImageCategoryManager.h */,
+				CC17D5181E51592800EF34C6 /* PINRemoteImageCategoryManager.m */,
+				CC17D5191E51592800EF34C6 /* PINRemoteImageDownloadTask.h */,
+				CC17D51A1E51592800EF34C6 /* PINRemoteImageDownloadTask.m */,
+				CC17D51B1E51592800EF34C6 /* PINRemoteImageMacros.h */,
+				CC17D51C1E51592800EF34C6 /* PINRemoteImageManager.h */,
+				CC17D51D1E51592800EF34C6 /* PINRemoteImageManager.m */,
+				CC17D51E1E51592800EF34C6 /* PINRemoteImageManagerResult.h */,
+				CC17D51F1E51592800EF34C6 /* PINRemoteImageManagerResult.m */,
+				CC17D5201E51592800EF34C6 /* PINRemoteImageProcessorTask.h */,
+				CC17D5211E51592800EF34C6 /* PINRemoteImageProcessorTask.m */,
+				CC17D5221E51592800EF34C6 /* PINRemoteImageTask.h */,
+				CC17D5231E51592800EF34C6 /* PINRemoteImageTask.m */,
+				CC17D5241E51592800EF34C6 /* PINURLSessionManager.h */,
+				CC17D5251E51592800EF34C6 /* PINURLSessionManager.m */,
+			);
+			name = PINRemoteImage;
+			path = Vender/PINRemoteImage;
+			sourceTree = "<group>";
+		};
+		CC17D5021E51592800EF34C6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CC17D5031E51592800EF34C6 /* NSData+ImageDetectors.h */,
+				CC17D5041E51592800EF34C6 /* NSData+ImageDetectors.m */,
+				CC17D5051E51592800EF34C6 /* UIImage+DecodedImage.h */,
+				CC17D5061E51592800EF34C6 /* UIImage+DecodedImage.m */,
+				CC17D5071E51592800EF34C6 /* UIImage+WebP.h */,
+				CC17D5081E51592800EF34C6 /* UIImage+WebP.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		CC17D5091E51592800EF34C6 /* Image Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CC17D50A1E51592800EF34C6 /* FLAnimatedImageView+PINRemoteImage.h */,
+				CC17D50B1E51592800EF34C6 /* FLAnimatedImageView+PINRemoteImage.m */,
+				CC17D50C1E51592800EF34C6 /* UIButton+PINRemoteImage.h */,
+				CC17D50D1E51592800EF34C6 /* UIButton+PINRemoteImage.m */,
+				CC17D50E1E51592800EF34C6 /* UIImageView+PINRemoteImage.h */,
+				CC17D50F1E51592800EF34C6 /* UIImageView+PINRemoteImage.m */,
+			);
+			path = "Image Categories";
+			sourceTree = "<group>";
+		};
 		CC9643B61E4D5F5D00D05270 = {
 			isa = PBXGroup;
 			children = (
@@ -109,11 +257,16 @@
 		CC9643C11E4D5F5D00D05270 /* Instruments */ = {
 			isa = PBXGroup;
 			children = (
+				CC17D4B71E5157E000EF34C6 /* Vender */,
 				CC9643CB1E4D5F5D00D05270 /* Main.storyboard */,
 				CC9643F51E4D66AD00D05270 /* K2TimeProfileViewController.h */,
 				CC9643F61E4D66AD00D05270 /* K2TimeProfileViewController.m */,
 				CC9643F81E4DCF4900D05270 /* K2TimeProfileImagesViewController.h */,
 				CC9643F91E4DCF4900D05270 /* K2TimeProfileImagesViewController.m */,
+				CC17D4B41E514C6100EF34C6 /* K2AllocationsViewController.h */,
+				CC17D4B51E514C6100EF34C6 /* K2AllocationsViewController.m */,
+				CC17D5391E52D15200EF34C6 /* K2LeaksViewController.h */,
+				CC17D53A1E52D15200EF34C6 /* K2LeaksViewController.m */,
 				CC9643C81E4D5F5D00D05270 /* ViewController.h */,
 				CC9643C91E4D5F5D00D05270 /* ViewController.m */,
 				CC9643C21E4D5F5D00D05270 /* Supporting Files */,
@@ -288,10 +441,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC9643F71E4D66AD00D05270 /* K2TimeProfileViewController.m in Sources */,
+				CC17D5301E51592800EF34C6 /* PINProgressiveImage.m in Sources */,
+				CC17D5381E51592800EF34C6 /* PINURLSessionManager.m in Sources */,
 				CC9643CA1E4D5F5D00D05270 /* ViewController.m in Sources */,
 				CC9643C71E4D5F5D00D05270 /* AppDelegate.m in Sources */,
+				CC17D5311E51592800EF34C6 /* PINRemoteImageCallbacks.m in Sources */,
+				CC17D52C1E51592800EF34C6 /* FLAnimatedImageView+PINRemoteImage.m in Sources */,
 				CC9643C41E4D5F5D00D05270 /* main.m in Sources */,
+				CC17D5291E51592800EF34C6 /* NSData+ImageDetectors.m in Sources */,
+				CC17D5371E51592800EF34C6 /* PINRemoteImageTask.m in Sources */,
+				CC17D5331E51592800EF34C6 /* PINRemoteImageDownloadTask.m in Sources */,
+				CC17D5361E51592800EF34C6 /* PINRemoteImageProcessorTask.m in Sources */,
+				CC17D52F1E51592800EF34C6 /* PINDataTaskOperation.m in Sources */,
+				CC17D5351E51592800EF34C6 /* PINRemoteImageManagerResult.m in Sources */,
+				CC17D5281E51592800EF34C6 /* PINMemoryCache.m in Sources */,
+				CC17D52D1E51592800EF34C6 /* UIButton+PINRemoteImage.m in Sources */,
 				CC9643FA1E4DCF4900D05270 /* K2TimeProfileImagesViewController.m in Sources */,
+				CC17D52B1E51592800EF34C6 /* UIImage+WebP.m in Sources */,
+				CC17D52E1E51592800EF34C6 /* UIImageView+PINRemoteImage.m in Sources */,
+				CC17D4B61E514C6100EF34C6 /* K2AllocationsViewController.m in Sources */,
+				CC17D5261E51592800EF34C6 /* PINCache.m in Sources */,
+				CC17D52A1E51592800EF34C6 /* UIImage+DecodedImage.m in Sources */,
+				CC17D53B1E52D15200EF34C6 /* K2LeaksViewController.m in Sources */,
+				CC17D5321E51592800EF34C6 /* PINRemoteImageCategoryManager.m in Sources */,
+				CC17D5271E51592800EF34C6 /* PINDiskCache.m in Sources */,
+				CC17D5341E51592800EF34C6 /* PINRemoteImageManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +697,7 @@
 				CC9643EE1E4D5F5D00D05270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC9643EF1E4D5F5D00D05270 /* Build configuration list for PBXNativeTarget "InstrumentsTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +706,7 @@
 				CC9643F11E4D5F5D00D05270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC9643F21E4D5F5D00D05270 /* Build configuration list for PBXNativeTarget "InstrumentsUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +715,7 @@
 				CC9643F41E4D5F5D00D05270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
